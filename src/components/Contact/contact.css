@@ -1,0 +1,19 @@
+.conta-section{
+    height: 90vh;
+    color: white;
+    display: flex;
+}
+
+
+.h-conta{
+    text-align: center;
+    color: #2c3e50;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.st-in input{
+    padding: 15px 10px;
+}

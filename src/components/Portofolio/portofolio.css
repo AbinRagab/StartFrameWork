@@ -1,0 +1,54 @@
+.conta-section{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h-porto{
+    text-align: center;
+    color: #2c3e50;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.st-in input{
+    margin-bottom: 30px;
+    padding: 15 px 10px;
+}
+.card{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    background-image: url('../../../img/1.png');
+    background-position: 100% 100%;
+    background-size: cover ;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.over{
+    background-color: #1abc9cb4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.over h2{
+    font-size: 100px;
+}
+.card:hover .over{
+    opacity: 1;
+}
